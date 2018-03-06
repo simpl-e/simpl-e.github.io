@@ -11,8 +11,8 @@ https://webpack.js.org/guides/getting-started/
 ### Estructura
 
 src:
-- libs: Librerías incluuidas manualmente
+- boot: Código JS que debiera cargarse al iniciar y que no depende de ninguna vista
+- libs: Librerías provadas o que no se puedan incluir por cdn
 - modules: Componentes Vue
   - components: Componentes para elementos repetitivos
   - views: Vistas funcionalmente independientes
-- router: Manejador de rutas (https://github.com/vuejs-templates/webpack/issues/560)
